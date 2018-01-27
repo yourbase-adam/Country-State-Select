@@ -64,7 +64,7 @@ module CountryStateSelect
 end
 
 case ::Rails.version.to_s
-  when /^5/
+  when /^5\.[0]/
     require 'country_state_select/engine'
   when /^4/
     require 'country_state_select/engine'
