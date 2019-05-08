@@ -1,5 +1,5 @@
 container:
-  image: node:latest
+  image: ruby:latest
 
 check_task:
   node_modules_cache:
